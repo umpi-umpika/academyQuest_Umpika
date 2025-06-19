@@ -56,10 +56,6 @@ When("I click delete icon") do
   find("[data-testid='delete_icon']").click
 end
 
-# Then("I click {string} to confirm deleting") do |button|
-#   page.accept_alert
-# end
-
 Then("I should see TEST") do
   expect(page).to have_content('TEST')
 end

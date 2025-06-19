@@ -29,5 +29,4 @@ Feature: Quest Page
     Given I am on the quests page
     And I should see a list of available quests
     When I click delete icon
-    # And I click "OK" to confirm deleting
     Then TEST disappear
